@@ -1,0 +1,36 @@
+.actions{
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-position: center;   
+}
+
+.social{
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px 12px 12px;
+    border: none;
+    background-color: var(--primary-white-color);
+    fill: #AFB1B8;
+    transition: 250ms var(--optimal-transition);
+
+    &:hover,
+    &:focus{
+    fill: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-radius: 50px;
+    }
+} 
+
+   
+
+.social_icon{
+        align-items: center;
+        width: 20px;
+        height: 20px;       
+    }
+
+

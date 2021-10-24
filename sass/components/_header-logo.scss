@@ -1,0 +1,19 @@
+.logo{
+    text-decoration: none;
+    color:var(--accent-color);
+    font-family: Raleway; 
+    font-style: normal;
+    font-weight: 700;
+    @include font(26px, 1.19);
+    
+    &_black{
+        color: #000;
+    }
+}
+
+.header-logo{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    @extend %flex-box;
+}

@@ -1,0 +1,38 @@
+.footer{
+    max-width: 1600px;
+    display: flex;
+    height: 252px;
+    margin: 0 auto;
+    background-color: #2F303A;
+
+    &_page{
+        display: flex;
+    }
+
+    &_set{
+        padding-top: 60px;    
+    }
+}
+
+.logo_white{
+    color:var(--primary-white-color);
+}
+
+.address-footer{
+    padding-top: 20px;
+    color: #ffffff;
+    font-style: normal;
+    @include font(14px, 1.7);
+   
+}
+
+.link-footer{
+    padding-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    @include font(14px, 1.71);
+    }
+
+
+
+
+

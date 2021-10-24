@@ -1,0 +1,42 @@
+.benefits{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+
+    &_item{
+            margin: 0;
+            padding: 0;
+            max-width: 270px;
+            flex-wrap: wrap;
+        }
+
+        
+    &_label{
+            display: flex;
+            margin: auto;    
+        }
+
+    &_icon{
+            max-width: 100%;
+            max-height: 120px;
+            border-radius: 4px;
+            padding: 25px 100px 25px 100px;
+            margin: auto;
+            background-color: #F5F4FA;    
+        }
+
+    &_title{
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-weight: 700;
+            @include font(14px, 1.14);
+            text-transform: uppercase;
+        } 
+
+    &_text{
+            color: var(--title-text-color);
+            @include font(14px, 1.71);
+           
+        }
+}
